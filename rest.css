@@ -1,0 +1,28 @@
+*
+{
+}
+
+body
+{
+  font-family: monospace;
+  line-height: 1.2em;
+}
+
+h1::before, h1::after
+{
+  content: "******************";
+  display: block;
+}
+
+h2::before, h2::after
+{
+  content: "==================";
+  display: block;
+}
+
+h3::after
+{
+  content: "----------------";
+  display: block;
+}
+
