@@ -6,23 +6,41 @@ body
 {
   font-family: monospace;
   line-height: 1.2em;
+  
+  color: #eeeeee;
+  background-color: #333333;
 }
 
 h1::before, h1::after
 {
-  content: "******************";
+  content: "***************************";
   display: block;
+  line-height: 1.5em;
 }
 
 h2::before, h2::after
 {
-  content: "==================";
+  content: "=========================";
   display: block;
 }
 
 h3::after
 {
-  content: "----------------";
+  content: "---------------------";
   display: block;
 }
 
+section
+{
+  margin-bottom: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: #6666ff;
+}
+
+a::after
+{
+  content: "_";
+}
