@@ -4,11 +4,16 @@
 
 body
 {
-  font-family: monospace;
+  font-family: courier,monospace;
   line-height: 1.2em;
   
   color: #eeeeee;
   background-color: #333333;
+}
+
+h1
+{
+  letter-spacing: 0.2em;
 }
 
 h1::before, h1::after
@@ -16,12 +21,20 @@ h1::before, h1::after
   content: "***************************";
   display: block;
   line-height: 1.5em;
+  letter-spacing: 0.2em;
+  color: #ffffcc;
+}
+
+h2
+{
+  letter-spacing: 0.1em;
 }
 
 h2::before, h2::after
 {
   content: "=========================";
   display: block;
+  letter-spacing: 0.1em;
 }
 
 h3::after
